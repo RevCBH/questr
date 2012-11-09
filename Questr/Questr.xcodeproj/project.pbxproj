@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5DF1B43164D7EA900816755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B42164D7EA900816755 /* UIKit.framework */; };
+		B5DF1B45164D7EA900816755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B44164D7EA900816755 /* Foundation.framework */; };
+		B5DF1B47164D7EA900816755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B46164D7EA900816755 /* CoreGraphics.framework */; };
+		B5DF1B4D164D7EA900816755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B4B164D7EA900816755 /* InfoPlist.strings */; };
+		B5DF1B4F164D7EA900816755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B4E164D7EA900816755 /* main.m */; };
+		B5DF1B53164D7EA900816755 /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B52164D7EA900816755 /* NTAppDelegate.m */; };
+		B5DF1B55164D7EA900816755 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B54164D7EA900816755 /* Default.png */; };
+		B5DF1B57164D7EA900816755 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B56164D7EA900816755 /* Default@2x.png */; };
+		B5DF1B59164D7EA900816755 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B58164D7EA900816755 /* Default-568h@2x.png */; };
+		B5DF1B5C164D7EA900816755 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B5A164D7EA900816755 /* MainStoryboard.storyboard */; };
+		B5DF1B5F164D7EA900816755 /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B5E164D7EA900816755 /* NTViewController.m */; };
+		B5DF1B67164D7EAA00816755 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B66164D7EAA00816755 /* SenTestingKit.framework */; };
+		B5DF1B68164D7EAA00816755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B42164D7EA900816755 /* UIKit.framework */; };
+		B5DF1B69164D7EAA00816755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B44164D7EA900816755 /* Foundation.framework */; };
+		B5DF1B71164D7EAA00816755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B6F164D7EAA00816755 /* InfoPlist.strings */; };
+		B5DF1B74164D7EAA00816755 /* QuestrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B73164D7EAA00816755 /* QuestrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5DF1B6A164D7EAA00816755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF1B35164D7EA900816755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DF1B3D164D7EA900816755;
+			remoteInfo = Questr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5DF1B3E164D7EA900816755 /* Questr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF1B42164D7EA900816755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5DF1B44164D7EA900816755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5DF1B46164D7EA900816755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5DF1B4A164D7EA900816755 /* Questr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Questr-Info.plist"; sourceTree = "<group>"; };
+		B5DF1B4C164D7EA900816755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DF1B4E164D7EA900816755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5DF1B50164D7EA900816755 /* Questr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Questr-Prefix.pch"; sourceTree = "<group>"; };
+		B5DF1B51164D7EA900816755 /* NTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAppDelegate.h; sourceTree = "<group>"; };
+		B5DF1B52164D7EA900816755 /* NTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
+		B5DF1B54164D7EA900816755 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5DF1B56164D7EA900816755 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5DF1B58164D7EA900816755 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5DF1B5B164D7EA900816755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B5DF1B5D164D7EA900816755 /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
+		B5DF1B5E164D7EA900816755 /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+		B5DF1B65164D7EAA00816755 /* QuestrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF1B66164D7EAA00816755 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B5DF1B6E164D7EAA00816755 /* QuestrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuestrTests-Info.plist"; sourceTree = "<group>"; };
+		B5DF1B70164D7EAA00816755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DF1B72164D7EAA00816755 /* QuestrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestrTests.h; sourceTree = "<group>"; };
+		B5DF1B73164D7EAA00816755 /* QuestrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DF1B3B164D7EA900816755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF1B43164D7EA900816755 /* UIKit.framework in Frameworks */,
+				B5DF1B45164D7EA900816755 /* Foundation.framework in Frameworks */,
+				B5DF1B47164D7EA900816755 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF1B61164D7EAA00816755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF1B67164D7EAA00816755 /* SenTestingKit.framework in Frameworks */,
+				B5DF1B68164D7EAA00816755 /* UIKit.framework in Frameworks */,
+				B5DF1B69164D7EAA00816755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5DF1B33164D7EA900816755 = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B48164D7EA900816755 /* Questr */,
+				B5DF1B6C164D7EAA00816755 /* QuestrTests */,
+				B5DF1B41164D7EA900816755 /* Frameworks */,
+				B5DF1B3F164D7EA900816755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DF1B3F164D7EA900816755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B3E164D7EA900816755 /* Questr.app */,
+				B5DF1B65164D7EAA00816755 /* QuestrTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DF1B41164D7EA900816755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B42164D7EA900816755 /* UIKit.framework */,
+				B5DF1B44164D7EA900816755 /* Foundation.framework */,
+				B5DF1B46164D7EA900816755 /* CoreGraphics.framework */,
+				B5DF1B66164D7EAA00816755 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5DF1B48164D7EA900816755 /* Questr */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B51164D7EA900816755 /* NTAppDelegate.h */,
+				B5DF1B52164D7EA900816755 /* NTAppDelegate.m */,
+				B5DF1B5A164D7EA900816755 /* MainStoryboard.storyboard */,
+				B5DF1B5D164D7EA900816755 /* NTViewController.h */,
+				B5DF1B5E164D7EA900816755 /* NTViewController.m */,
+				B5DF1B49164D7EA900816755 /* Supporting Files */,
+			);
+			path = Questr;
+			sourceTree = "<group>";
+		};
+		B5DF1B49164D7EA900816755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B4A164D7EA900816755 /* Questr-Info.plist */,
+				B5DF1B4B164D7EA900816755 /* InfoPlist.strings */,
+				B5DF1B4E164D7EA900816755 /* main.m */,
+				B5DF1B50164D7EA900816755 /* Questr-Prefix.pch */,
+				B5DF1B54164D7EA900816755 /* Default.png */,
+				B5DF1B56164D7EA900816755 /* Default@2x.png */,
+				B5DF1B58164D7EA900816755 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF1B6C164D7EAA00816755 /* QuestrTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B72164D7EAA00816755 /* QuestrTests.h */,
+				B5DF1B73164D7EAA00816755 /* QuestrTests.m */,
+				B5DF1B6D164D7EAA00816755 /* Supporting Files */,
+			);
+			path = QuestrTests;
+			sourceTree = "<group>";
+		};
+		B5DF1B6D164D7EAA00816755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B6E164D7EAA00816755 /* QuestrTests-Info.plist */,
+				B5DF1B6F164D7EAA00816755 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DF1B3D164D7EA900816755 /* Questr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF1B77164D7EAA00816755 /* Build configuration list for PBXNativeTarget "Questr" */;
+			buildPhases = (
+				B5DF1B3A164D7EA900816755 /* Sources */,
+				B5DF1B3B164D7EA900816755 /* Frameworks */,
+				B5DF1B3C164D7EA900816755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questr;
+			productName = Questr;
+			productReference = B5DF1B3E164D7EA900816755 /* Questr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5DF1B64164D7EAA00816755 /* QuestrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF1B7A164D7EAA00816755 /* Build configuration list for PBXNativeTarget "QuestrTests" */;
+			buildPhases = (
+				B5DF1B60164D7EAA00816755 /* Sources */,
+				B5DF1B61164D7EAA00816755 /* Frameworks */,
+				B5DF1B62164D7EAA00816755 /* Resources */,
+				B5DF1B63164D7EAA00816755 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DF1B6B164D7EAA00816755 /* PBXTargetDependency */,
+			);
+			name = QuestrTests;
+			productName = QuestrTests;
+			productReference = B5DF1B65164D7EAA00816755 /* QuestrTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DF1B35164D7EA900816755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ben Hoffman";
+			};
+			buildConfigurationList = B5DF1B38164D7EA900816755 /* Build configuration list for PBXProject "Questr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5DF1B33164D7EA900816755;
+			productRefGroup = B5DF1B3F164D7EA900816755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DF1B3D164D7EA900816755 /* Questr */,
+				B5DF1B64164D7EAA00816755 /* QuestrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DF1B3C164D7EA900816755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF1B4D164D7EA900816755 /* InfoPlist.strings in Resources */,
+				B5DF1B55164D7EA900816755 /* Default.png in Resources */,
+				B5DF1B57164D7EA900816755 /* Default@2x.png in Resources */,
+				B5DF1B59164D7EA900816755 /* Default-568h@2x.png in Resources */,
+				B5DF1B5C164D7EA900816755 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF1B62164D7EAA00816755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF1B71164D7EAA00816755 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5DF1B63164D7EAA00816755 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DF1B3A164D7EA900816755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF1B4F164D7EA900816755 /* main.m in Sources */,
+				B5DF1B53164D7EA900816755 /* NTAppDelegate.m in Sources */,
+				B5DF1B5F164D7EA900816755 /* NTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF1B60164D7EAA00816755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF1B74164D7EAA00816755 /* QuestrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DF1B6B164D7EAA00816755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DF1B3D164D7EA900816755 /* Questr */;
+			targetProxy = B5DF1B6A164D7EAA00816755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5DF1B4B164D7EA900816755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF1B4C164D7EA900816755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5DF1B5A164D7EA900816755 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF1B5B164D7EA900816755 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B5DF1B6F164D7EAA00816755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF1B70164D7EAA00816755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DF1B75164D7EAA00816755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5DF1B76164D7EAA00816755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DF1B78164D7EAA00816755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questr/Questr-Prefix.pch";
+				INFOPLIST_FILE = "Questr/Questr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5DF1B79164D7EAA00816755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questr/Questr-Prefix.pch";
+				INFOPLIST_FILE = "Questr/Questr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5DF1B7B164D7EAA00816755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Questr.app/Questr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questr/Questr-Prefix.pch";
+				INFOPLIST_FILE = "QuestrTests/QuestrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B5DF1B7C164D7EAA00816755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Questr.app/Questr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questr/Questr-Prefix.pch";
+				INFOPLIST_FILE = "QuestrTests/QuestrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DF1B38164D7EA900816755 /* Build configuration list for PBXProject "Questr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF1B75164D7EAA00816755 /* Debug */,
+				B5DF1B76164D7EAA00816755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DF1B77164D7EAA00816755 /* Build configuration list for PBXNativeTarget "Questr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF1B78164D7EAA00816755 /* Debug */,
+				B5DF1B79164D7EAA00816755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5DF1B7A164D7EAA00816755 /* Build configuration list for PBXNativeTarget "QuestrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF1B7B164D7EAA00816755 /* Debug */,
+				B5DF1B7C164D7EAA00816755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DF1B35164D7EA900816755 /* Project object */;
+}
