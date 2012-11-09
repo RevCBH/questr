@@ -23,6 +23,24 @@
 		B5DF1B69164D7EAA00816755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B44164D7EA900816755 /* Foundation.framework */; };
 		B5DF1B71164D7EAA00816755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B6F164D7EAA00816755 /* InfoPlist.strings */; };
 		B5DF1B74164D7EAA00816755 /* QuestrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B73164D7EAA00816755 /* QuestrTests.m */; };
+		B5DF1B80164D973D00816755 /* NTGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B7F164D973D00816755 /* NTGoal.m */; };
+		B5DF1B81164D973D00816755 /* NTGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B7F164D973D00816755 /* NTGoal.m */; };
+		B5DF1B84164D975200816755 /* NTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B83164D975200816755 /* NTModel.m */; };
+		B5DF1B85164D975200816755 /* NTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B83164D975200816755 /* NTModel.m */; };
+		B5DF1B92164D98D500816755 /* NSArray+ArrayUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B89164D98D500816755 /* NSArray+ArrayUtility.m */; };
+		B5DF1B93164D98D500816755 /* NSArray+ArrayUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B89164D98D500816755 /* NSArray+ArrayUtility.m */; };
+		B5DF1B94164D98D500816755 /* NSArray+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B8B164D98D500816755 /* NSArray+JsonSerialization.m */; };
+		B5DF1B95164D98D500816755 /* NSArray+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B8B164D98D500816755 /* NSArray+JsonSerialization.m */; };
+		B5DF1B96164D98D500816755 /* NSDate+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B8D164D98D500816755 /* NSDate+JsonSerialization.m */; };
+		B5DF1B97164D98D500816755 /* NSDate+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B8D164D98D500816755 /* NSDate+JsonSerialization.m */; };
+		B5DF1B98164D98D500816755 /* NSDictionary+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B8F164D98D500816755 /* NSDictionary+JsonSerialization.m */; };
+		B5DF1B99164D98D500816755 /* NSDictionary+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B8F164D98D500816755 /* NSDictionary+JsonSerialization.m */; };
+		B5DF1B9A164D98D500816755 /* NSObject+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B91164D98D500816755 /* NSObject+JsonSerialization.m */; };
+		B5DF1B9B164D98D500816755 /* NSObject+JsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B91164D98D500816755 /* NSObject+JsonSerialization.m */; };
+		B5DF1B9F164DA10200816755 /* NTCue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B9E164DA10200816755 /* NTCue.m */; };
+		B5DF1BA0164DA10200816755 /* NTCue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B9E164DA10200816755 /* NTCue.m */; };
+		B5DF1BA3164DA11200816755 /* NTStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BA2164DA11100816755 /* NTStep.m */; };
+		B5DF1BA4164DA11200816755 /* NTStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BA2164DA11100816755 /* NTStep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +76,25 @@
 		B5DF1B70164D7EAA00816755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5DF1B72164D7EAA00816755 /* QuestrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestrTests.h; sourceTree = "<group>"; };
 		B5DF1B73164D7EAA00816755 /* QuestrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestrTests.m; sourceTree = "<group>"; };
+		B5DF1B7E164D973D00816755 /* NTGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGoal.h; sourceTree = "<group>"; };
+		B5DF1B7F164D973D00816755 /* NTGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGoal.m; sourceTree = "<group>"; };
+		B5DF1B82164D975200816755 /* NTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTModel.h; sourceTree = "<group>"; };
+		B5DF1B83164D975200816755 /* NTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTModel.m; sourceTree = "<group>"; };
+		B5DF1B88164D98D500816755 /* NSArray+ArrayUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ArrayUtility.h"; sourceTree = "<group>"; };
+		B5DF1B89164D98D500816755 /* NSArray+ArrayUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayUtility.m"; sourceTree = "<group>"; };
+		B5DF1B8A164D98D500816755 /* NSArray+JsonSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JsonSerialization.h"; sourceTree = "<group>"; };
+		B5DF1B8B164D98D500816755 /* NSArray+JsonSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JsonSerialization.m"; sourceTree = "<group>"; };
+		B5DF1B8C164D98D500816755 /* NSDate+JsonSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JsonSerialization.h"; sourceTree = "<group>"; };
+		B5DF1B8D164D98D500816755 /* NSDate+JsonSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JsonSerialization.m"; sourceTree = "<group>"; };
+		B5DF1B8E164D98D500816755 /* NSDictionary+JsonSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JsonSerialization.h"; sourceTree = "<group>"; };
+		B5DF1B8F164D98D500816755 /* NSDictionary+JsonSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JsonSerialization.m"; sourceTree = "<group>"; };
+		B5DF1B90164D98D500816755 /* NSObject+JsonSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonSerialization.h"; sourceTree = "<group>"; };
+		B5DF1B91164D98D500816755 /* NSObject+JsonSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonSerialization.m"; sourceTree = "<group>"; };
+		B5DF1B9C164D992600816755 /* NTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTUtil.h; sourceTree = "<group>"; };
+		B5DF1B9D164DA10200816755 /* NTCue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCue.h; sourceTree = "<group>"; };
+		B5DF1B9E164DA10200816755 /* NTCue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCue.m; sourceTree = "<group>"; };
+		B5DF1BA1164DA11100816755 /* NTStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTStep.h; sourceTree = "<group>"; };
+		B5DF1BA2164DA11100816755 /* NTStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTStep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +154,8 @@
 		B5DF1B48164D7EA900816755 /* Questr */ = {
 			isa = PBXGroup;
 			children = (
+				B5DF1B86164D987C00816755 /* Util */,
+				B5DF1B7D164D96A800816755 /* Models */,
 				B5DF1B51164D7EA900816755 /* NTAppDelegate.h */,
 				B5DF1B52164D7EA900816755 /* NTAppDelegate.m */,
 				B5DF1B5A164D7EA900816755 /* MainStoryboard.storyboard */,
@@ -158,6 +197,39 @@
 				B5DF1B6F164D7EAA00816755 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF1B7D164D96A800816755 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B7E164D973D00816755 /* NTGoal.h */,
+				B5DF1B7F164D973D00816755 /* NTGoal.m */,
+				B5DF1B82164D975200816755 /* NTModel.h */,
+				B5DF1B83164D975200816755 /* NTModel.m */,
+				B5DF1B9D164DA10200816755 /* NTCue.h */,
+				B5DF1B9E164DA10200816755 /* NTCue.m */,
+				B5DF1BA1164DA11100816755 /* NTStep.h */,
+				B5DF1BA2164DA11100816755 /* NTStep.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B5DF1B86164D987C00816755 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF1B9C164D992600816755 /* NTUtil.h */,
+				B5DF1B88164D98D500816755 /* NSArray+ArrayUtility.h */,
+				B5DF1B89164D98D500816755 /* NSArray+ArrayUtility.m */,
+				B5DF1B8A164D98D500816755 /* NSArray+JsonSerialization.h */,
+				B5DF1B8B164D98D500816755 /* NSArray+JsonSerialization.m */,
+				B5DF1B8C164D98D500816755 /* NSDate+JsonSerialization.h */,
+				B5DF1B8D164D98D500816755 /* NSDate+JsonSerialization.m */,
+				B5DF1B8E164D98D500816755 /* NSDictionary+JsonSerialization.h */,
+				B5DF1B8F164D98D500816755 /* NSDictionary+JsonSerialization.m */,
+				B5DF1B90164D98D500816755 /* NSObject+JsonSerialization.h */,
+				B5DF1B91164D98D500816755 /* NSObject+JsonSerialization.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +346,15 @@
 				B5DF1B4F164D7EA900816755 /* main.m in Sources */,
 				B5DF1B53164D7EA900816755 /* NTAppDelegate.m in Sources */,
 				B5DF1B5F164D7EA900816755 /* NTViewController.m in Sources */,
+				B5DF1B80164D973D00816755 /* NTGoal.m in Sources */,
+				B5DF1B84164D975200816755 /* NTModel.m in Sources */,
+				B5DF1B92164D98D500816755 /* NSArray+ArrayUtility.m in Sources */,
+				B5DF1B94164D98D500816755 /* NSArray+JsonSerialization.m in Sources */,
+				B5DF1B96164D98D500816755 /* NSDate+JsonSerialization.m in Sources */,
+				B5DF1B98164D98D500816755 /* NSDictionary+JsonSerialization.m in Sources */,
+				B5DF1B9A164D98D500816755 /* NSObject+JsonSerialization.m in Sources */,
+				B5DF1B9F164DA10200816755 /* NTCue.m in Sources */,
+				B5DF1BA3164DA11200816755 /* NTStep.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +363,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DF1B74164D7EAA00816755 /* QuestrTests.m in Sources */,
+				B5DF1B81164D973D00816755 /* NTGoal.m in Sources */,
+				B5DF1B85164D975200816755 /* NTModel.m in Sources */,
+				B5DF1B93164D98D500816755 /* NSArray+ArrayUtility.m in Sources */,
+				B5DF1B95164D98D500816755 /* NSArray+JsonSerialization.m in Sources */,
+				B5DF1B97164D98D500816755 /* NSDate+JsonSerialization.m in Sources */,
+				B5DF1B99164D98D500816755 /* NSDictionary+JsonSerialization.m in Sources */,
+				B5DF1B9B164D98D500816755 /* NSObject+JsonSerialization.m in Sources */,
+				B5DF1BA0164DA10200816755 /* NTCue.m in Sources */,
+				B5DF1BA4164DA11200816755 /* NTStep.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

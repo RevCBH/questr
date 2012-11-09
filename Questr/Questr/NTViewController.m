@@ -7,23 +7,42 @@
 //
 
 #import "NTViewController.h"
+#import "NTGoal.h"
 
 @interface NTViewController ()
-
 @end
 
 @implementation NTViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+	return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+	return NTGoal.goals.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSArray *g = NTGoal.goals;
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HabitCell"];
+	cell.textLabel.text = [g[indexPath.row] title];
+	cell.detailTextLabel.text = [g[indexPath.row] description];
+    return cell;
 }
 
 @end
