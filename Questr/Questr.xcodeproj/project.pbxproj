@@ -17,7 +17,6 @@
 		B5DF1B57164D7EA900816755 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B56164D7EA900816755 /* Default@2x.png */; };
 		B5DF1B59164D7EA900816755 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B58164D7EA900816755 /* Default-568h@2x.png */; };
 		B5DF1B5C164D7EA900816755 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF1B5A164D7EA900816755 /* MainStoryboard.storyboard */; };
-		B5DF1B5F164D7EA900816755 /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B5E164D7EA900816755 /* NTViewController.m */; };
 		B5DF1B67164D7EAA00816755 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B66164D7EAA00816755 /* SenTestingKit.framework */; };
 		B5DF1B68164D7EAA00816755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B42164D7EA900816755 /* UIKit.framework */; };
 		B5DF1B69164D7EAA00816755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1B44164D7EA900816755 /* Foundation.framework */; };
@@ -41,6 +40,10 @@
 		B5DF1BA0164DA10200816755 /* NTCue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1B9E164DA10200816755 /* NTCue.m */; };
 		B5DF1BA3164DA11200816755 /* NTStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BA2164DA11100816755 /* NTStep.m */; };
 		B5DF1BA4164DA11200816755 /* NTStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BA2164DA11100816755 /* NTStep.m */; };
+		B5DF1BA7164DAEB500816755 /* NTGoalPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BA6164DAEB400816755 /* NTGoalPickerController.m */; };
+		B5DF1BA8164DAEB500816755 /* NTGoalPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BA6164DAEB400816755 /* NTGoalPickerController.m */; };
+		B5DF1BAB164DAEFB00816755 /* NTCuePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BAA164DAEFB00816755 /* NTCuePickerController.m */; };
+		B5DF1BAC164DAEFB00816755 /* NTCuePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BAA164DAEFB00816755 /* NTCuePickerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +71,6 @@
 		B5DF1B56164D7EA900816755 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B5DF1B58164D7EA900816755 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B5DF1B5B164D7EA900816755 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B5DF1B5D164D7EA900816755 /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
-		B5DF1B5E164D7EA900816755 /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
 		B5DF1B65164D7EAA00816755 /* QuestrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF1B66164D7EAA00816755 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B5DF1B6E164D7EAA00816755 /* QuestrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuestrTests-Info.plist"; sourceTree = "<group>"; };
@@ -95,6 +96,10 @@
 		B5DF1B9E164DA10200816755 /* NTCue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCue.m; sourceTree = "<group>"; };
 		B5DF1BA1164DA11100816755 /* NTStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTStep.h; sourceTree = "<group>"; };
 		B5DF1BA2164DA11100816755 /* NTStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTStep.m; sourceTree = "<group>"; };
+		B5DF1BA5164DAEB400816755 /* NTGoalPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGoalPickerController.h; sourceTree = "<group>"; };
+		B5DF1BA6164DAEB400816755 /* NTGoalPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGoalPickerController.m; sourceTree = "<group>"; };
+		B5DF1BA9164DAEFA00816755 /* NTCuePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCuePickerController.h; sourceTree = "<group>"; };
+		B5DF1BAA164DAEFB00816755 /* NTCuePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCuePickerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,14 +159,16 @@
 		B5DF1B48164D7EA900816755 /* Questr */ = {
 			isa = PBXGroup;
 			children = (
+				B5DF1BA5164DAEB400816755 /* NTGoalPickerController.h */,
+				B5DF1BA6164DAEB400816755 /* NTGoalPickerController.m */,
 				B5DF1B86164D987C00816755 /* Util */,
 				B5DF1B7D164D96A800816755 /* Models */,
 				B5DF1B51164D7EA900816755 /* NTAppDelegate.h */,
 				B5DF1B52164D7EA900816755 /* NTAppDelegate.m */,
 				B5DF1B5A164D7EA900816755 /* MainStoryboard.storyboard */,
-				B5DF1B5D164D7EA900816755 /* NTViewController.h */,
-				B5DF1B5E164D7EA900816755 /* NTViewController.m */,
 				B5DF1B49164D7EA900816755 /* Supporting Files */,
+				B5DF1BA9164DAEFA00816755 /* NTCuePickerController.h */,
+				B5DF1BAA164DAEFB00816755 /* NTCuePickerController.m */,
 			);
 			path = Questr;
 			sourceTree = "<group>";
@@ -345,7 +352,6 @@
 			files = (
 				B5DF1B4F164D7EA900816755 /* main.m in Sources */,
 				B5DF1B53164D7EA900816755 /* NTAppDelegate.m in Sources */,
-				B5DF1B5F164D7EA900816755 /* NTViewController.m in Sources */,
 				B5DF1B80164D973D00816755 /* NTGoal.m in Sources */,
 				B5DF1B84164D975200816755 /* NTModel.m in Sources */,
 				B5DF1B92164D98D500816755 /* NSArray+ArrayUtility.m in Sources */,
@@ -355,6 +361,8 @@
 				B5DF1B9A164D98D500816755 /* NSObject+JsonSerialization.m in Sources */,
 				B5DF1B9F164DA10200816755 /* NTCue.m in Sources */,
 				B5DF1BA3164DA11200816755 /* NTStep.m in Sources */,
+				B5DF1BA7164DAEB500816755 /* NTGoalPickerController.m in Sources */,
+				B5DF1BAB164DAEFB00816755 /* NTCuePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +380,8 @@
 				B5DF1B9B164D98D500816755 /* NSObject+JsonSerialization.m in Sources */,
 				B5DF1BA0164DA10200816755 /* NTCue.m in Sources */,
 				B5DF1BA4164DA11200816755 /* NTStep.m in Sources */,
+				B5DF1BA8164DAEB500816755 /* NTGoalPickerController.m in Sources */,
+				B5DF1BAC164DAEFB00816755 /* NTCuePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,13 +6,14 @@
 //  Copyright (c) 2012 Ben Hoffman. All rights reserved.
 //
 
-#import "NTViewController.h"
+#import "NTGoalPickerController.h"
 #import "NTGoal.h"
+#import "NTCuePickerController.h"
 
-@interface NTViewController ()
+@interface NTGoalPickerController ()
 @end
 
-@implementation NTViewController
+@implementation NTGoalPickerController
 
 
 
@@ -43,6 +44,16 @@
 	cell.textLabel.text = [g[indexPath.row] title];
 	cell.detailTextLabel.text = [g[indexPath.row] description];
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+//    if ([[segue identifier] isEqualToString:@"HabitSelected"])
+//    {
+        NTCuePickerController *detailViewController = [segue destinationViewController];
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        detailViewController.goal = NTGoal.goals[indexPath.row];
+//    }
 }
 
 @end

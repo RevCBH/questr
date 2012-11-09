@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NTViewController : UITableViewController
-
+@interface NTGoalPickerController : UITableViewController
 @end
