@@ -47,6 +47,8 @@
 		B5DF1BB0164DBAB200816755 /* NTGoalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BAF164DBAB200816755 /* NTGoalCell.m */; };
 		B5DF1BB1164DBAB200816755 /* NTGoalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BAF164DBAB200816755 /* NTGoalCell.m */; };
 		B5DF1BB3164DBD7100816755 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF1BB2164DBD7100816755 /* QuartzCore.framework */; };
+		B5DF1BB6164DF08100816755 /* NTCueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BB5164DF08100816755 /* NTCueCell.m */; };
+		B5DF1BB7164DF08100816755 /* NTCueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF1BB5164DF08100816755 /* NTCueCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		B5DF1BAE164DBAB200816755 /* NTGoalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGoalCell.h; sourceTree = "<group>"; };
 		B5DF1BAF164DBAB200816755 /* NTGoalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGoalCell.m; sourceTree = "<group>"; };
 		B5DF1BB2164DBD7100816755 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5DF1BB4164DF08100816755 /* NTCueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCueCell.h; sourceTree = "<group>"; };
+		B5DF1BB5164DF08100816755 /* NTCueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTCueCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +257,8 @@
 			children = (
 				B5DF1BAE164DBAB200816755 /* NTGoalCell.h */,
 				B5DF1BAF164DBAB200816755 /* NTGoalCell.m */,
+				B5DF1BB4164DF08100816755 /* NTCueCell.h */,
+				B5DF1BB5164DF08100816755 /* NTCueCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -382,6 +388,7 @@
 				B5DF1BA7164DAEB500816755 /* NTGoalPickerController.m in Sources */,
 				B5DF1BAB164DAEFB00816755 /* NTCuePickerController.m in Sources */,
 				B5DF1BB0164DBAB200816755 /* NTGoalCell.m in Sources */,
+				B5DF1BB6164DF08100816755 /* NTCueCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +409,7 @@
 				B5DF1BA8164DAEB500816755 /* NTGoalPickerController.m in Sources */,
 				B5DF1BAC164DAEFB00816755 /* NTCuePickerController.m in Sources */,
 				B5DF1BB1164DBAB200816755 /* NTGoalCell.m in Sources */,
+				B5DF1BB7164DF08100816755 /* NTCueCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

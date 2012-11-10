@@ -27,6 +27,7 @@ NTPredicate titleP(NSString *title) {
         __goals = @[
         @{  @"title":       @"Exercise",
             @"description": @"Workout to build strength and muscle",
+            @"numParticipants": nint(500),
             @"cues": [@[
                       @"wake up",
                       @"stand up from lunch",
@@ -40,6 +41,7 @@ NTPredicate titleP(NSString *title) {
         },
         @{  @"title":       @"Floss",
             @"description": @"Keep those chompers shiny",
+            @"numParticipants": nint(500),        
             @"cues": [@[
                       @"brush teeth",
                       @"stand up from lunch",
@@ -53,6 +55,7 @@ NTPredicate titleP(NSString *title) {
         },
         @{  @"title":       @"Read",
             @"description": @"Become smarter and more interesting",
+            @"numParticipants": nint(500),        
             @"cues": [@[
                       @"get into bed",
                       @"stand up from dinner",
@@ -66,6 +69,7 @@ NTPredicate titleP(NSString *title) {
         },
         @{  @"title":       @"Run",
             @"description": @"Go faster for longer",
+            @"numParticipants": nint(500),        
             @"cues": [@[
                       @"wake up",
                       @"stand up from lunch",
@@ -79,6 +83,7 @@ NTPredicate titleP(NSString *title) {
         },
         @{  @"title":       @"Drink more water",
             @"description": @"Stay hydrated for great justice!",
+            @"numParticipants": nint(500),        
             @"cues": [@[
                       @"wake up",
                       @"stand up from lunch",

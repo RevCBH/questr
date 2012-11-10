@@ -9,6 +9,7 @@
 #import "NTCuePickerController.h"
 #import "NTUtil.h"
 #import "NTCue.h"
+#import "NTCueCell.h"
 
 @interface NTCuePickerController ()
 
@@ -51,11 +52,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSArray *g = goal.cues;
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CueCell"];
-	cell.textLabel.text = [g[indexPath.row] title];
-    NSString *desc = nsprintf(@"%d%% success rate", (int)([g[indexPath.row] successRate].floatValue * 100));
-	cell.detailTextLabel.text = desc;
+    NTCue *c = goal.cues[indexPath.row];
+	NTCueCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CueCell"];
+    cell.titleLabel.text = c.title;
+    NSString *desc = nsprintf(@"%d%% success rate", (int)(c.successRate.floatValue * 100));
+//	cell.detailTextLabel.text = desc;
     return cell;
 }
 

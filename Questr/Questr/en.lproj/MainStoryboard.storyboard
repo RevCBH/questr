@@ -35,11 +35,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HabitCell" rowHeight="77" id="b6u-vD-N8Q" customClass="NTGoalCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HabitCell" rowHeight="77" id="b6u-vD-N8Q" customClass="NTGoalCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="77"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="76"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="habit name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAJ-Ld-STY">
@@ -90,7 +90,7 @@
                                     <constraint firstItem="WY9-d9-2al" firstAttribute="leading" secondItem="b6u-vD-N8Q" secondAttribute="leading" constant="20" type="default" id="zSm-iE-tMg"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="participantsLabel" destination="WY9-d9-2al" id="bCQ-fp-vFU"/>
+                                    <outlet property="participantsLabel" destination="WY9-d9-2al" id="Oh6-Bk-iKM"/>
                                     <outlet property="successLabel" destination="7tW-8c-tIT" id="rOZ-I8-ELp"/>
                                     <outlet property="titleLabel" destination="aAJ-Ld-STY" id="zRm-ep-E2k"/>
                                     <segue destination="wzq-ZO-z8u" kind="push" id="l3G-4y-JPr"/>
@@ -118,32 +118,69 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3LK-iO-Gc7">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="77" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3LK-iO-Gc7">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="274" id="jbx-G3-fHC"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CueCell" textLabel="uUx-XJ-3Up" detailTextLabel="vMB-pP-3MZ" style="IBUITableViewCellStyleSubtitle" id="22s-rj-xHO" customClass="NTCuePickerContoller">
-                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CueCell" rowHeight="77" id="XDz-M6-s8X" userLabel="Cue Cell - CueCell" customClass="NTCueCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="77"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="76"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUx-XJ-3Up">
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="habit name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="83N-5L-bDL">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="65" id="cEe-Re-8I3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                    <color key="textColor" white="0.19847741790000001" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMB-pP-3MZ">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="participants" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztq-Ob-BDx">
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="144" id="DlL-FM-1vA"/>
+                                                        <constraint firstAttribute="height" constant="21" id="Zqj-Qf-q25"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                    <color key="textColor" white="0.20000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="success rate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kad-up-Uty">
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="137" id="su7-Ba-9VX"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                    <color key="textColor" white="0.20000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sF2-To-k4m">
+                                                    <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                </view>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="ztq-Ob-BDx" firstAttribute="bottom" secondItem="XDz-M6-s8X" secondAttribute="bottom" type="default" id="BsN-MK-3S2"/>
+                                            <constraint firstAttribute="bottom" secondItem="sF2-To-k4m" secondAttribute="bottom" constant="-3" id="FYi-2i-3hz"/>
+                                            <constraint firstItem="kad-up-Uty" firstAttribute="top" secondItem="ztq-Ob-BDx" secondAttribute="top" type="default" id="SUX-kV-jeJ"/>
+                                            <constraint firstItem="sF2-To-k4m" firstAttribute="leading" secondItem="XDz-M6-s8X" secondAttribute="leading" constant="20" type="default" id="VQX-zx-XjA"/>
+                                            <constraint firstItem="83N-5L-bDL" firstAttribute="leading" secondItem="XDz-M6-s8X" secondAttribute="leading" constant="20" type="default" id="aPU-7X-lzy"/>
+                                            <constraint firstItem="83N-5L-bDL" firstAttribute="top" secondItem="XDz-M6-s8X" secondAttribute="top" type="default" id="d80-O1-J6O"/>
+                                            <constraint firstAttribute="trailing" secondItem="kad-up-Uty" secondAttribute="trailing" constant="20" type="default" id="fgf-ts-fCP"/>
+                                            <constraint firstAttribute="trailing" secondItem="83N-5L-bDL" secondAttribute="trailing" constant="20" type="default" id="iRG-F2-TtM"/>
+                                            <constraint firstAttribute="trailing" secondItem="sF2-To-k4m" secondAttribute="trailing" constant="20" type="default" id="mxe-ND-9dA"/>
+                                            <constraint firstItem="sF2-To-k4m" firstAttribute="top" secondItem="XDz-M6-s8X" secondAttribute="top" constant="74" id="o62-UG-wGE"/>
+                                            <constraint firstItem="ztq-Ob-BDx" firstAttribute="leading" secondItem="XDz-M6-s8X" secondAttribute="leading" constant="20" type="default" id="qRB-UT-XE5"/>
+                                            <constraint firstItem="kad-up-Uty" firstAttribute="bottom" secondItem="XDz-M6-s8X" secondAttribute="bottom" type="default" id="v20-Zf-lzO"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="83N-5L-bDL" id="uNg-5y-i8b"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -158,11 +195,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aeK-Ra-9ix" firstAttribute="centerX" secondItem="3LK-iO-Gc7" secondAttribute="centerX" type="default" id="H3f-Uj-dgC"/>
                             <constraint firstItem="3LK-iO-Gc7" firstAttribute="bottom" secondItem="qg1-Nt-dS0" secondAttribute="bottom" type="default" id="Hp9-FL-HVt"/>
                             <constraint firstItem="3LK-iO-Gc7" firstAttribute="leading" secondItem="qg1-Nt-dS0" secondAttribute="leading" type="default" id="U4S-Ws-P2V"/>
                             <constraint firstItem="aeK-Ra-9ix" firstAttribute="top" secondItem="qg1-Nt-dS0" secondAttribute="top" constant="99" id="VMX-vh-4u2"/>
                             <constraint firstItem="3LK-iO-Gc7" firstAttribute="trailing" secondItem="qg1-Nt-dS0" secondAttribute="trailing" type="default" id="WyY-Mf-t7c"/>
+                            <constraint firstItem="aeK-Ra-9ix" firstAttribute="centerX" secondItem="3LK-iO-Gc7" secondAttribute="centerX" type="default" id="kyZ-eF-MNA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Cue" id="wTi-EU-NoC">
@@ -203,6 +240,12 @@
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="NTCueCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NTCueCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="NTCuePickerController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NTCuePickerController.h"/>
