@@ -17,5 +17,6 @@
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSArray *cues;
 @property (nonatomic, strong) NSArray *steps;
+@property (nonatomic, strong) NSNumber *numParticipants;
 
 @end

@@ -10,6 +10,7 @@
 #import "NTGoal.h"
 #import "NTCuePickerController.h"
 #import "NTGoalCell.h"
+#import "NTUtil.h"
 
 @interface NTGoalPickerController ()
 @end
@@ -40,10 +41,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSArray *g = NTGoal.goals;
+    NTGoal *g = NTGoal.goals[indexPath.row];
 	NTGoalCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HabitCell"];
-	cell.titleLabel.text = [g[indexPath.row] title];
-	cell.detailTextLabel.text = [g[indexPath.row] description];
+	cell.titleLabel.text = [g.title lowercaseString];
+    cell.participantsLabel.text = nsprintf(@"%d participants", g.numParticipants.intValue);
+
     return cell;
 }
 
